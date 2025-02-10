@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lelym AI  
 
-## Getting Started
+![Lelym AI](https://i.imgur.com/ow5JzhP.png)
 
-First, run the development server:
+Lelym AI is an AI-powered platform designed for real-time collection and analysis of large volumes of diverse data related to cryptocurrencies and digital assets. The system enhances the accuracy of price and trading volume forecasts by integrating multiple information sources (social media, news portals, on-chain data) with advanced machine learning algorithms and statistical analysis.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Key Functional Modules  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Social Media Analytics**  
+   - Monitoring mentions of cryptocurrencies, tokens, and related topics on Twitter, Reddit, and other platforms.  
+   - Sentiment analysis to detect real-time trends and assess public perception.  
+   - Filtering out "noisy" activity (bots, fake news) using ML models.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **News & Media Analysis**  
+   - Automated aggregation of articles and press releases from major news sources (CoinDesk, Cointelegraph, Bloomberg, etc.).  
+   - Assessing the "hype level" around specific events (e.g., token listings on major exchanges).  
+   - Utilizing NLP techniques to analyze content and sentiment in publications.  
 
-## Learn More
+3. **On-Chain Metrics**  
+   - Collecting and analyzing network activity data (transaction count, active addresses, transaction volume).  
+   - Evaluating mining/validation status (hash rate, staking activity, miner/validator distribution).  
+   - Developing indicators reflecting blockchain fundamentals, such as the ratio of new addresses to total addresses.  
 
-To learn more about Next.js, take a look at the following resources:
+4. **Historical Volatility Analysis**  
+   - Storing and analyzing time-series data of prices and trading volumes across multiple exchanges.  
+   - Evaluating volatility patterns and linking historical spikes/crashes to external events.  
+   - Implementing regression and time-series models (ARIMA, LSTM, etc.) for short- and long-term volatility prediction.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Alerts & Risk Management Indicators**  
+   - Customizable alerts for sudden price spikes/drops, volume surges, or other anomalies.  
+   - Combining traditional indicators (RSI, MACD) with AI-powered analytics incorporating social media activity.  
+   - Risk management module: calculating potential losses, liquidation levels, and hedging recommendations.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. **Flexible Database Architecture**  
+   - Centralized storage (based on NoSQL and relational databases) for efficient handling of structured and unstructured data.  
+   - Easy integration of new data sources and metrics (e.g., additional social media platforms or specialized analytics resources).  
+   - Microservices architecture: independent modules (social analytics, news analysis, on-chain data) communicating via APIs.  
 
-## Deploy on Vercel
+---  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 3. Technology Stack  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Real-Time Data Processing**  
+   - Using frameworks like Apache Kafka or RabbitMQ for real-time data collection and distribution.  
+
+2. **Machine Learning Models**  
+   - NLP models for text processing, sentiment analysis, and anomaly detection.  
+   - Deep neural networks for price forecasting (LSTM or GRU for time series data).  
+   - Variational autoencoders or hybrid models for detecting rare patterns (sudden price spikes).  
+
+3. **Infrastructure**  
+   - Cloud solutions (AWS, GCP, Azure) for scalability and load management.  
+   - Containerization (Docker/Kubernetes) for flexible deployment of different modules.
+     
