@@ -1,5 +1,7 @@
 # Lelym AI  
 
+![Lelym AI](https://i.yapx.cc/YcySo.png)
+
 Lelym AI is an AI-powered platform designed for real-time collection and analysis of large volumes of diverse data related to cryptocurrencies and digital assets. The system enhances the accuracy of price and trading volume forecasts by integrating multiple information sources (social media, news portals, on-chain data) with advanced machine learning algorithms and statistical analysis.  
 
 ---  
@@ -52,11 +54,4 @@ Lelym AI is an AI-powered platform designed for real-time collection and analysi
    - Cloud solutions (AWS, GCP, Azure) for scalability and load management.  
    - Containerization (Docker/Kubernetes) for flexible deployment of different modules.  
 
----  
 
-## 4. Installation & Usage  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/lelym-ai.git
-   cd lelym-ai
