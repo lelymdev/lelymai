@@ -1,6 +1,6 @@
 # Lelym AI  
 
-![Lelym AI](https://i.yapx.cc/YcySo.png)
+![Lelym AI](https://i.imgur.com/ow5JzhP.png)
 
 Lelym AI is an AI-powered platform designed for real-time collection and analysis of large volumes of diverse data related to cryptocurrencies and digital assets. The system enhances the accuracy of price and trading volume forecasts by integrating multiple information sources (social media, news portals, on-chain data) with advanced machine learning algorithms and statistical analysis.  
 
